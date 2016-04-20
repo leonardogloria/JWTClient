@@ -4560,3 +4560,16 @@ n:538:sl/org/objectweb/asm/tree/InnerClassNode
 n:18131:grails/plugins/rest/client/RestBuilder
 n:8421:grails/plugins/rest/client/RestResponse
 n:13092:grails/plugins/rest/client/RequestCustomizer
+n:3103:jline/console/history/MemoryHistory$EntriesIterator
+n:1117:jline/console/history/MemoryHistory$EntryImpl
+n:264:jline/console/history/History$Entry
+n:17990:grails/converters/JSON
+n:499:org/codehaus/groovy/grails/web/converters/IncludeExcludeConverter
+n:732:org/codehaus/groovy/grails/web/converters/ConfigurableConverter
+n:3082:org/codehaus/groovy/grails/web/converters/AbstractConverter
+n:1199:org/codehaus/groovy/grails/web/converters/configuration/ConverterConfiguration
+n:2141:org/codehaus/groovy/grails/web/converters/Converter$CircularReferenceBehaviour
+n:6057:org/codehaus/groovy/grails/web/json/JSONWriter
+n:812:org/codehaus/groovy/grails/web/json/JSONException
+n:167:org/codehaus/groovy/grails/web/json/JSONElement
+n:269:groovyjarjarantlr/CharStreamException

@@ -1,5 +1,6 @@
 package jwtclient
 
+import grails.converters.JSON
 import grails.plugins.rest.client.RestBuilder
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
@@ -37,6 +38,17 @@ class LoginController {
 
         println  resp.json
 
+
+    }
+    def login(){
+        def resp = rest.post("http://localhost:8080/roletaFood/AppAuth/doLogin") {
+            json {
+                email = "lsilva@credilink.com.br"
+                senha = "123456"
+
+            }
+        }
+        println resp.statusCode
 
     }
 
